@@ -1,8 +1,12 @@
-package study_01
+package study_1.study_1_1
 
 /**
- * 1-1.변수를 다루는 방법(Kotlin)
+ * 1-1.변수를 다루는 방법
  */
+class Test01 {
+
+}
+
 fun main(args: Array<String>) {
     print("Hello Kotlin!")
 
@@ -42,12 +46,12 @@ fun main(args: Array<String>) {
     var person = Person("김초원")
 
     /**
-     * TIP
+     * <TIP>
      * - 모든 변수는 우선 val 로 만들고 꼭 필요한 경우 var 로 변경한다.
      */
 
     /**
-     * 정리
+     * <정리>
      * 1.모든 변수는 var/val을 붙여주어야 한다.
      * 2.타입을 명시적으로 지정해주지 않아도 타입 추론이 가능하다. 물론 명시적으로 선언 가능
      * 3.Primitive Type과 Reference Type을 개발자가 구분해주지 않아도 된다.
