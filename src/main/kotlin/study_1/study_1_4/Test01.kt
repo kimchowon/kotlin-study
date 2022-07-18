@@ -37,12 +37,12 @@ fun main(args: Array<String>) {
     val money4 = money3
     val money5 = JavaMoney(2000L)
 
-    // 값 비교
+    // 값 비교(동등성)
     println(money3 == money4)
     println(money3 == money5)
     println()
 
-    // 주소 비교
+    // 주소 비교(동일성)
     println(money3 === money4)
     print(money3 === money5)
 }
