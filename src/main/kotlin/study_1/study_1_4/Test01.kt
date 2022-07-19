@@ -1,7 +1,5 @@
 package study_1.study_1_4
 
-import study_1_4.JavaMoney
-
 /**
  * 1_4.연산자를 다루는 방법
  */

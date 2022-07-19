@@ -1,4 +1,4 @@
-package study_1_2;
+package study_1.study_1_2;
 
 public class JavaCode {
 

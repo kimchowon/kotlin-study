@@ -1,7 +1,5 @@
 package study_1.study_1_2
 
-import study_1_2.Person
-
 /**
  * 1-2.null을 다루는 방법
  * - Java와 Kotlin을 병행해서 쓰는 경우에 Kotlin에서 Java 변수의 null 처리

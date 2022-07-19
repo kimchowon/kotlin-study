@@ -1,4 +1,4 @@
-package study_1_4;
+package study_1.study_1_4;
 
 import java.util.Objects;
 
