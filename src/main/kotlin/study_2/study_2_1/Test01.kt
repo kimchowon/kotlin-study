@@ -3,6 +3,7 @@ package study_2.study_2_1
 /**
  * 02.kotlin에서 코드를 제어하는 방법
  * 02-1.kotlin에서 제어문을 다루는 방법
+ * - if-else, switch 문
  */
 class Test01 {
     // 1.if문
@@ -14,8 +15,6 @@ class Test01 {
     // kotlin에서 switch문 사라짐. 대신 when 문법 사용
     // 아래 메서드 getGradeWithSwitch, getGradeWithSwitch2,
     //          startsWithA, jugdeNumber 참고
-
-    //
 }
 
 fun getPassOrFail(score: Int): String {
@@ -57,7 +56,7 @@ fun getGradeWithSwitch2(score: Int): String {
  * when 문법은 타입 체크도 가능함
  */
 fun startsWithA(obj: Any): Boolean {
-    return when(obj) {
+    return when (obj) {
         is String -> obj.startsWith("A")
         else -> false
     }
@@ -68,8 +67,20 @@ fun startsWithA(obj: Any): Boolean {
  * @see study_2.study_2_1.Test01_Java.judgeNumber
  */
 fun judgeNumber(number: Int) {
-    when(number) {
-        1,0,-1 -> println("어디서 많이 본 숫자입니다.")
+    when (number) {
+        1, 0, -1 -> println("어디서 많이 본 숫자입니다.")
         else -> println("1,0,-1이 아닙니다.")
+    }
+}
+
+/**
+ * when() 괄호 안에 값이 없을 수도 있음 (early return)
+ * @see study_2.study_2_1.Test01_Java.judgeNumber2
+ */
+fun judgeNumber2(number: Int) {
+    when {
+        number == 0 -> println("주어진 숫자는 0입니다.")
+        number % 2 == 0 -> println("주어진 숫자는 짝수입니다.")
+        else -> println("주어진 숫자는 홀수 입니다.")
     }
 }
