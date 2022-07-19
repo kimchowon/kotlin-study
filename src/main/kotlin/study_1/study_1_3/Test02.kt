@@ -1,6 +1,6 @@
 package study_1.study_1_3
 
-import study_1.study_1_2.Person
+import study_1_2.Person
 
 /**
  * 1_3.type을 다루는 방법
