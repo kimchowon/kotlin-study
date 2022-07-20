@@ -2,7 +2,7 @@ package study_2.study_2_1
 
 /**
  * 02.kotlin에서 코드를 제어하는 방법
- * 02-1.kotlin에서 제어문을 다루는 방법
+ * 02_1.kotlin에서 제어문을 다루는 방법
  * - if-else, switch 문
  */
 class Test01 {
